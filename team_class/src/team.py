@@ -5,5 +5,5 @@ class Team:
         self.coach = coach
 
     def add_player(self, new_player):
-        self.players + new_player
+        self.players.append(new_player)
 
